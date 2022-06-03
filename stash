@@ -1,0 +1,14 @@
+stash is mainly used for saving the temporary gurbage stuffs
+
+$git stash save 'message' - for saving the current stash
+
+$git stash list - for viewing all the stash
+
+$git stash apply - for applying the recent stash
+
+$git stash apply stash@{id} - apply the id'th stash form stash list. may cause a problem in fish for curly braces.
+
+$git stash drop stash@{id} - deletes the id'th stash from stash list
+
+$git stash pop stash@{id} - apply and delete id'th stash 
+
