@@ -1,2 +1,4 @@
-this_file_need_to_be_ignored.txt
-
+*.env
+*.txt
+!stash.txt
+*.exe
