@@ -1,4 +1,10 @@
-*.env
-*.txt
-!stash.txt
-*.exe
+# *.env
+# *.txt
+# !stash.txt
+# *.exe
+
+# *.*
+# !*.env
+# !*.txt
+
+
