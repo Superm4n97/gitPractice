@@ -1,0 +1,11 @@
+rebase tomar feature ke master er pore jog kore. then master ke abar feature er head e ante hoy.
+
+$git checkout fature-rebase
+$git rebase main
+* ete main er head er pore fature-rebase eshe poreche
+
+$git checkout main
+$git merge fature-rebase
+* fast forward merge of main 
+
+$git rebase main fature-branch
