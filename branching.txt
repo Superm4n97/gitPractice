@@ -2,3 +2,18 @@ suppose ekta branch create korlam, tahole main branch er content sob ei branch e
 kono ekta issue thik korte hole notun branch create korte hoy. then created branch e issue fix kore merge korte hoy.
 * jodi dekha gelo current brach e ami kisu modified content ache, ekhon jodi ami branch switch kori tahole ei modified content gulo kintu ar paoa jaabe na,
 * sejonno modified content guloke amar stash kore rakhte hobe, jaate pore egulo abar use korte pari.
+* jokno branch er sathe onno ekta branch ke merge kora jaay ($ git merge issue53)
+
+* $ git branch -d issue53
+    you can delete a branch using, this deletes a branch that is already merge to main branch.
+    if we want to delete a branch forcefully then we have to type -D insted of -d
+* $ git branch
+    shows the list of branches.
+* $ git branch -v
+    shows all the branches with it's last commit.
+* git branch --merged
+    shows all the branches that are merged into the current branch
+* git branch --no-merged
+    shows all the branches that are merged into the current branch
+* git branch --move bad-branch-name corrected-branch-name
+    renames the branch
