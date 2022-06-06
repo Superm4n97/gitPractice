@@ -1,0 +1,4 @@
+suppose ekta branch create korlam, tahole main branch er content sob ei branch e eshe porbe.
+kono ekta issue thik korte hole notun branch create korte hoy. then created branch e issue fix kore merge korte hoy.
+* jodi dekha gelo current brach e ami kisu modified content ache, ekhon jodi ami branch switch kori tahole ei modified content gulo kintu ar paoa jaabe na,
+* sejonno modified content guloke amar stash kore rakhte hobe, jaate pore egulo abar use korte pari.
